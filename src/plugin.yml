@@ -1,0 +1,11 @@
+name: TheTowers
+description: The Towers is a very popular opposition game.
+
+author: Jielos
+version: 1.0
+main: fr.jielos.thetowers.Main
+
+commands:
+  forcestart:
+    description: Permet de lancer de force la partie.
+    permission: thetowers.forcestart

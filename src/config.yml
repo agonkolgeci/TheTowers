@@ -1,0 +1,130 @@
+# TheTowers Plugin by Jielos
+# Copyright 2021
+
+Game:
+  DaylightCycle: false
+  ArmorsDrop: false
+  CanOpenAdverseChests: false
+  NaturalRegeneration: true
+  MaxTime: 30 # Minutes
+Teams:
+  MaxPlayersPerTeams: 3
+  MaxPoints: 5
+  AutoRun: true
+  SpawnProtection:
+    xRadius: 17
+    yRadius: 4
+    zRadius: 3
+
+Timers:
+  Launch: 10
+  End: 5
+
+BungeeCord:
+  Support: false
+  Server: lobby01
+WaitingRoom:
+  World: WaitingRoom
+  Damages: false
+  Build: false
+
+JoinTitle:
+  Title: "&eTheTowers"
+  SubTitle: "&7{player_name}"
+Scoreboard:
+  Enabled: true
+  Title: "&8- &6&lThe Towers &8-"
+  Footer: "§eplay.jielos.fr"
+Menu:
+  Teams:
+    Item: 421
+    Position: 0
+    Name: "&3&l\u00C9quipes &r&7(Clic-droit)"
+  Quit:
+    Enabled: true
+    Item: 355
+    Position: 8
+    Name: "&c&lQuitter &r&7(Clic-droit)"
+
+Spawners:
+  Interval: 3
+  Radius: 10
+  Iron: 
+    x: 0.5
+    y: 207 
+    z: 14.5
+  Experience:
+    x: 0.5
+    y: 207 
+    z: -14.5
+Border:
+  xRadius: 90
+  zRadius: 30
+  Center:
+    x: 0
+    z: 0
+Locations:
+  WaitingRoom:
+    x: 0.5
+    y: 100.5
+    z: 0.5
+    yaw: -90
+    pitch: 0
+  Teams:
+    Blue:
+      Spawn:
+        x: -83.5
+        y: 194
+        z: 0.5
+        yaw: -90
+        pitch: 0
+      Pool:
+        '1':
+          x: -83
+          y: 202
+          z: -1
+        '2':
+          x: -85
+          y: 202
+          z: 1
+      Region:
+        '1':
+          x: -32 
+          y: 0 
+          z: -17 
+        '2':
+          x: -87 
+          y: 209 
+          z: 17
+    Red:
+      Spawn:
+        x: 84.5 
+        y: 194 
+        z: 0.5 
+        yaw: 90 
+        pitch: 0
+      Pool:
+        '1':
+          x: 83 
+          y: 202 
+          z: 1
+        '2': 
+          x: 85 
+          y: 202 
+          z: -1 
+      Region:
+        '1':
+          x: 32 
+          y: 0 
+          z: 17
+        '2':
+          x: 87 
+          y: 209 
+          z: -17
+    Spectator:
+      Spawn:
+        x: 0 
+        y: 212 
+        z: 0 
+        yaw: 180 
+        pitch: 0

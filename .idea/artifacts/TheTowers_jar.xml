@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="TheTowers:jar">
+    <output-path>$PROJECT_DIR$/../../../Files/Servers/TheTowers/plugins</output-path>
+    <root id="root">
+      <element id="archive" name="TheTowers.jar">
+        <element id="module-output" name="TheTowers" />
+      </element>
+    </root>
+  </artifact>
+</component>
