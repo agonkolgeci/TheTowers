@@ -12,4 +12,4 @@ TheTowers est un mini-jeu consistant à opposer deux équipes, rouges et les ble
 
 ## Crédits
 - Inspiration du serveur [BadBlock](https://badblock.fr/) désormais fermé.
-- Utilisation de certaines cartes de [Badblock](https://github.com/badblock-game/archives/tree/main/MAPS)
+- Utilisation de certaines cartes de [Badblock](https://github.com/badblock-game/archives/tree/main/MAPS).
