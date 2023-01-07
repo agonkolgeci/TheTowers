@@ -4,7 +4,7 @@ Ce projet vous est mis a disposition dans une volonté de partage il est ainsi e
 ---
 - Nom: TheTowers
 - Type: Mini-jeu
-- État: Progression continuelle
+- État: Archive
 - Développeur(s): Jielos
 
 ## Description
